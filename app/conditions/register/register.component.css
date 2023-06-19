@@ -1,0 +1,40 @@
+.hi{
+  text-align: center;
+}
+.bt{
+  height: 100px;
+  width: 100px;
+}
+.col-lg-12{
+  margin-left: 200px;
+}
+.log{
+  margin-left: 200px;
+}
+.cls{
+  margin-left: 50px;
+}
+.rule{
+  margin-left: 50px;
+  text-align: center;
+  margin-left: 700px;
+}.regs{
+  margin-left: 1200px;
+}.p{
+  font-weight: bold;
+}.m{
+  font-weight: bold;
+}
+.reg1{
+  position: absolute;
+  top:120px;
+  left: 80%;
+}.bt{
+  position: absolute;
+  right: 50px;
+  background-color: black;
+  radius:5%;
+  height: 30px;
+} h6{
+  color:ghostwhite;
+}

@@ -1,0 +1,38 @@
+<div class="all"style="background-color:indigo"><div class="container mt-5 mb-5">
+
+    <div class="row">
+
+        <div class="col-lg-6" *ngIf="menuData">
+        <a routerLink="../../menu" class="btn btn5m btn-dark mb-3">Back</a>
+                <img src="{{menuData[0].foodImg}}" width="100%"style="borderRadius:5%" >
+                <h1 style="color:ghostwhite">{{menuData[0].foodName}}</h1>
+        <div style="color:ghostwhite"> {{menuData[0].foodDetails}}<br>
+                {{menuData[0].foodPrice | currency:'INR'}}</div>
+        </div>
+        <div class="col-lg-6 col-lg-12">
+         <!-- <h1 style="color:ghostwhite">Enter Your Details</h1>-->  <br>
+            <br>
+            <br>
+            <h1 class="pay" style="color:ghostwhite">Online Payment</h1><br><br>
+           <h6> <button class="btn btn-md btn-light"(click)="money()" >Buy</button></h6>
+            <!--<form>
+                <input type="text" class="form-control" placeholder="Enter Your Full Name"/>
+                <input type="text" class="form-control" placeholder="Enter Your Mobile Number"/>
+                <textarea class="form-control" placeholder="Enter Your Address"></textarea>
+                <button class="btn btn-md btn-dark mt-3" (click)="gen()">Place Order</button>
+                
+            </form>-->
+        </div>
+
+
+    </div>
+
+
+
+</div><div class="qr" style="color:ghostwhite"><p><ngx-qrcode 
+[elementType]="elementType"
+[errorCorrectionLevel]="correctionLevel"
+[value]="value"
+cssClass="bshadow" ></ngx-qrcode><br>
+Scan here to pay your bills</p></div>
+</div>

@@ -1,0 +1,31 @@
+form{
+    width: 50%;
+    margin-top: 10%;
+}
+
+img
+{
+    border-radius: 5px;
+}
+@media screen and (max-width:600px) {
+    form
+    {
+        width: 100%;
+    }
+}
+p{
+    position: relative;
+    left: 1100px;
+    top: -600px;
+    
+}.btn btn-md btn-dark{
+    position: absolute;
+    left: 20px;
+}.pay{
+    position: relative;
+    left: 500px;
+}
+h6{
+    position: relative;
+    left:600px;
+}
