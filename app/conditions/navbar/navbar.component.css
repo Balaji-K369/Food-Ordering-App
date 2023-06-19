@@ -1,0 +1,14 @@
+.navbar-nav .nav-link.active, .navbar-nav .nav-link
+{
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show.active-link
+{
+    color: var(--primary-color);
+    font-weight: bold;
+ 
+    
+}
